@@ -1,0 +1,28 @@
+/* order-display.css */
+
+.order-display-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.order-display-page h1 {
+  color: #2c3e50;
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .order-display-page {
+    padding: 15px;
+  }
+
+  .order-display-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}

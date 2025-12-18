@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "store_project_api.Controllers.OrderController",
+    "Method": "CreateOrderAsync",
+    "RelativePath": "api/Order/create-order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "store_project_api.DTOS.OrderDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "store_project_api.Controllers.OrderController",
+    "Method": "GetOrderAsync",
+    "RelativePath": "api/Order/get-order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "store_project_api.Controllers.ProductController",
+    "Method": "GetProductAsync",
+    "RelativePath": "api/Product/get-product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

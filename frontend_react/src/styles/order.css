@@ -1,0 +1,145 @@
+/* order.css */
+
+.order-list {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Table wrapper for scrolling */
+.order-table-wrapper {
+  overflow-y: auto;
+  flex: 1;
+  position: relative;
+}
+
+.order-table-wrapper::-webkit-scrollbar {
+  width: 8px;
+}
+
+.order-table-wrapper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.order-table-wrapper::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.order-table-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.order-table thead {
+  background: blue;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.order-table thead th {
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+  background: blue;
+}
+
+.order-table tbody tr {
+  border-bottom: 1px solid #e8e8e8;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.order-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.order-table tbody tr:hover {
+  background-color: #f8f9fa;
+  transform: scale(1.01);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.order-table tbody td {
+  padding: 16px;
+  color: #333;
+}
+
+.order-table tbody td:nth-child(1) {
+  font-weight: 600;
+  color: #667eea;
+}
+
+.order-table tbody td:nth-child(2) {
+  font-weight: 700;
+  color: #27ae60;
+}
+
+.order-table tbody td:nth-child(3) {
+  color: #7f8c8d;
+  font-size: 14px;
+}
+
+/* Empty state styling */
+.order-table tbody td[colspan="3"] {
+  padding: 40px;
+  text-align: center;
+  color: #95a5a6;
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .order-list {
+    border-radius: 6px;
+  }
+
+  .order-table-wrapper {
+    overflow-x: auto;
+  }
+
+  .order-table {
+    font-size: 14px;
+    min-width: 600px;
+  }
+
+  .order-table thead th,
+  .order-table tbody td {
+    padding: 12px 10px;
+  }
+
+  .order-table thead th {
+    font-size: 13px;
+  }
+
+  .order-table tbody td:nth-child(3) {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .order-table {
+    font-size: 13px;
+  }
+
+  .order-table thead th,
+  .order-table tbody td {
+    padding: 10px 8px;
+  }
+}
