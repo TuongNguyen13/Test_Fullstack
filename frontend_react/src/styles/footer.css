@@ -1,0 +1,48 @@
+/* Kiểu dáng chung cho footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Thêm kiểu cho phần responsive */
+@media (max-width: 768px) {
+  .footer-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

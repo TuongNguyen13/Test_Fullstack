@@ -1,0 +1,158 @@
+/* Header Container */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  height: 70px;
+  background: white;
+  border-bottom: 2px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Logo Section */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.site-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0;
+  white-space: nowrap;
+}
+
+/* Navigation */
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  display: block;
+  padding: 10px 24px;
+  color: #4b5563;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.nav-links a:hover {
+  background: #f3f4f6;
+  color: #2563eb;
+}
+
+.nav-links a:active {
+  background: #e5e7eb;
+}
+
+/* Active Link Style */
+.nav-links a.active {
+  background: #dbeafe;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+/* Cart Icon */
+.cart-icon {
+  flex-shrink: 0;
+}
+
+.cart-icon a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: #f3f4f6;
+  border-radius: 8px;
+  color: #4b5563;
+  font-size: 20px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.cart-icon a:hover {
+  background: #e5e7eb;
+  color: #2563eb;
+}
+
+.cart-icon a:active {
+  transform: scale(0.95);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    padding: 0 16px;
+    height: 60px;
+  }
+
+  .site-title {
+    font-size: 16px;
+  }
+
+  .logo-image {
+    width: 32px;
+    height: 32px;
+  }
+
+  .nav-links {
+    gap: 4px;
+  }
+
+  .nav-links a {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .cart-icon a {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0 12px;
+  }
+
+  .site-title {
+    display: none;
+  }
+
+  .nav-links a {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+}
