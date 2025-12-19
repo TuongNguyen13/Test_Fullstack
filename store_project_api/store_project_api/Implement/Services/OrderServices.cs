@@ -20,7 +20,7 @@ namespace store_project_api.Implement.Services
         {
             try
             {
-                // Tạo OrderId mới với định dạng DH + số tự động tăng
+                // Create new OrderId with slyte DH + increase number
                 using var transaction = await _storeDbContext.Database.BeginTransactionAsync();
                 var lastOrder = await _storeDbContext.Orders
                                               .Where(o => o.OrderId.StartsWith("DH"))
@@ -47,12 +47,12 @@ namespace store_project_api.Implement.Services
                     CreatedAt = DateTime.Now
                 };
 
-                
 
-                // Thêm đơn hàng vào cơ sở dữ liệu
+
+                // Add Order to DbContext
                 _storeDbContext.Orders.Add(newOrder);
 
-                // Thêm các OrderItems
+                // Add OrderItems
                 var newOrderItemId = "CTDH001";
                 int countItem = 0;
                 foreach (var item in order.OrderItems)
@@ -67,13 +67,13 @@ namespace store_project_api.Implement.Services
                         if (lastOrderItem != null)
                         {
                             int lastNumber = int.Parse(lastOrderItem.OrderItemId.Substring(4));
-                            newOrderItemId = "CTDH" + (lastNumber + 1).ToString("D3");  // Cập nhật lại giá trị newOrderItemId ở đây
+                            newOrderItemId = "CTDH" + (lastNumber + 1).ToString("D3");  // Update newOrderItemId value here!
                         }
                     }    
 
                     var newOrderItem = new OrderItem
                     {
-                        OrderItemId = newOrderItemId, // Dùng newOrderItemId đã được cập nhật
+                        OrderItemId = newOrderItemId, // Using newOrderItemId updated above
                         OrderId = newOrderId,
                         ProductId = item.ProductId,
                         Quantity = item.Quantity,
@@ -85,7 +85,7 @@ namespace store_project_api.Implement.Services
                     countItem++;
                 }
 
-                // Lưu thay đổi vào cơ sở dữ liệu
+                // Save changes to database
                 await _storeDbContext.SaveChangesAsync();
                 await transaction.CommitAsync();
 

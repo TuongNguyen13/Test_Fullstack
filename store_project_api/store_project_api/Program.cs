@@ -12,7 +12,8 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", builder =>
     {
-        builder.WithOrigins("http://localhost:5173", "https://localhost:5173")  // URL of fe
+        builder.WithOrigins("http://localhost:5173", "https://localhost:5173" , "http://localhost:3000",
+                "http://host.docker.internal:3000")  // URL of fe
                .AllowAnyHeader()                     // Allowed all header
                .AllowAnyMethod()                     // Allowed all HTTP metods
                .AllowCredentials();                 // Allow credentials for SignalR
@@ -38,11 +39,10 @@ var app = builder.Build();
 app.UseCors("AllowAll");
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+
 
 app.MapHub<OrderHub>("/orderHub");
 app.UseHttpsRedirection();
@@ -51,4 +51,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+app.Run("http://0.0.0.0:5000");
