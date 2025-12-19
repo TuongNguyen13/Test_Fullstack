@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./store_project_api
+    container_name: test_fullstack-backend
+    ports:
+      - "5000:5000"
+    environment:
+      - ASPNETCORE_URLS=http://+:5000
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend_react
+    container_name: test_fullstack-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend

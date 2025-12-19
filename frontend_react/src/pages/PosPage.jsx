@@ -6,8 +6,7 @@ import '../styles/pos.css';
 import Header from '../components/layout/Header';
 import OrderList from '../components/order/OrderList';
 import { getOrders } from '../services/orderService';
-import { HubConnectionBuilder } from '@microsoft/signalr';
-import * as signalR from '@microsoft/signalr';
+
 
 
 
@@ -27,46 +26,11 @@ const PosPage = () => {
   };
 
   fetchOrders();
-   const intervalId = setInterval(fetchOrders, 3000);
+   const intervalId = setInterval(fetchOrders, 1000);
 
-    // Cleanup khi component unmount
+    
     return () => clearInterval(intervalId);
-  }, []); // Chỉ gọi 1 lần khi component mount
-
-
-
- useEffect(() => {
-  if (connectionRef.current) return;
-
-  const connection = new HubConnectionBuilder()
-    .withUrl("https://localhost:44368/orderHub")
-    .withAutomaticReconnect()
-    .configureLogging(signalR.LogLevel.Warning)
-    .build();
-
-  connection.on("ReceiveOrderUpdate", order => {
-    console.log("Received order update:", order);
-    setOrders(prev => Array.isArray(prev) ? [...prev, order] : [order]);
-  });
-
-  let isMounted = true;
-
-  connection.start()
-    .then(() => {
-      if (!isMounted) return;
-      console.log("✅ SignalR connected");
-      connectionRef.current = connection;
-    })
-    .catch(err => console.error("SignalR error:", err));
-
-  return () => {
-    isMounted = false;
-    if (connection.state === signalR.HubConnectionState.Connected) {
-      connection.stop();
-    }
-    connectionRef.current = null;
-  };
-}, []);
+  }, []); 
 
 
   return (

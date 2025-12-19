@@ -3,64 +3,60 @@
   "WorkspaceRootPath": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\implement\\services\\orderhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\implement\\services\\orderhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\implement\\services\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\implement\\services\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\implement\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\implement\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\models\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\models\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\implement\\interfaces\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\implement\\interfaces\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\implement\\interfaces\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\implement\\interfaces\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\dtos\\orderitemsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\dtos\\orderitemsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\models\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\models\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\implement\\interfaces\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\implement\\interfaces\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\implement\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\implement\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\implement\\services\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\implement\\services\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\implement\\services\\orderhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\implement\\services\\orderhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|solutionrelative:store_project_api\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1504D725-D062-4A4E-9ED9-1987C31ABC5C}|store_project_api\\store_project_api.csproj|d:\\learn_web\\test_fullstack\\store_project_api\\store_project_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -78,193 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderHub.cs",
-              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Services\\OrderHub.cs",
-              "RelativeDocumentMoniker": "store_project_api\\Implement\\Services\\OrderHub.cs",
-              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Services\\OrderHub.cs",
-              "RelativeToolTip": "store_project_api\\Implement\\Services\\OrderHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T17:14:10.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "store_project_api\\Models\\Order.cs",
-              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Models\\Order.cs",
-              "RelativeToolTip": "store_project_api\\Models\\Order.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T05:55:23.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductServices.cs",
-              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Services\\ProductServices.cs",
-              "RelativeDocumentMoniker": "store_project_api\\Implement\\Services\\ProductServices.cs",
-              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Services\\ProductServices.cs",
-              "RelativeToolTip": "store_project_api\\Implement\\Services\\ProductServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T06:17:23.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IOrder.cs",
-              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Interfaces\\IOrder.cs",
-              "RelativeDocumentMoniker": "store_project_api\\Implement\\Interfaces\\IOrder.cs",
-              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Interfaces\\IOrder.cs",
-              "RelativeToolTip": "store_project_api\\Implement\\Interfaces\\IOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T06:14:33.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IProduct.cs",
-              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Interfaces\\IProduct.cs",
-              "RelativeDocumentMoniker": "store_project_api\\Implement\\Interfaces\\IProduct.cs",
-              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Interfaces\\IProduct.cs",
-              "RelativeToolTip": "store_project_api\\Implement\\Interfaces\\IProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T06:13:21.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "StoreDbContext.cs",
-              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Models\\StoreDbContext.cs",
-              "RelativeDocumentMoniker": "store_project_api\\Models\\StoreDbContext.cs",
-              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Models\\StoreDbContext.cs",
-              "RelativeToolTip": "store_project_api\\Models\\StoreDbContext.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAApwDoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T05:54:45.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "OrderItemsDTO.cs",
-              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\DTOS\\OrderItemsDTO.cs",
-              "RelativeDocumentMoniker": "store_project_api\\DTOS\\OrderItemsDTO.cs",
-              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\DTOS\\OrderItemsDTO.cs",
-              "RelativeToolTip": "store_project_api\\DTOS\\OrderItemsDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T15:26:57.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\DTOS\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "store_project_api\\DTOS\\ProductDTO.cs",
-              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\DTOS\\ProductDTO.cs",
-              "RelativeToolTip": "store_project_api\\DTOS\\ProductDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T08:50:04.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "store_project_api\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "store_project_api\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAIwD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T08:54:05.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "store_project_api\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "store_project_api\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T06:27:39.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderServices.cs",
-              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Services\\OrderServices.cs",
-              "RelativeDocumentMoniker": "store_project_api\\Implement\\Services\\OrderServices.cs",
-              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Services\\OrderServices.cs",
-              "RelativeToolTip": "store_project_api\\Implement\\Services\\OrderServices.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAIwGoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T08:39:38.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Program.cs",
-              "RelativeDocumentMoniker": "store_project_api\\Program.cs",
-              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Program.cs",
-              "RelativeToolTip": "store_project_api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T06:28:35.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderDTO.cs",
-              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\DTOS\\OrderDTO.cs",
-              "RelativeDocumentMoniker": "store_project_api\\DTOS\\OrderDTO.cs",
-              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\DTOS\\OrderDTO.cs",
-              "RelativeToolTip": "store_project_api\\DTOS\\OrderDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T08:57:40.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Models\\OrderItem.cs",
-              "RelativeDocumentMoniker": "store_project_api\\Models\\OrderItem.cs",
-              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Models\\OrderItem.cs",
-              "RelativeToolTip": "store_project_api\\Models\\OrderItem.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T06:15:39.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Models\\Product.cs",
               "RelativeDocumentMoniker": "store_project_api\\Models\\Product.cs",
@@ -277,19 +91,189 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 2,
+              "Title": "IProduct.cs",
+              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Interfaces\\IProduct.cs",
+              "RelativeDocumentMoniker": "store_project_api\\Implement\\Interfaces\\IProduct.cs",
+              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Interfaces\\IProduct.cs",
+              "RelativeToolTip": "store_project_api\\Implement\\Interfaces\\IProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T06:13:21.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "store_project_api\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "store_project_api\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwBoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T06:27:39.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "store_project_api\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "store_project_api\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:54:05.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "store_project_api\\Models\\OrderItem.cs",
+              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Models\\OrderItem.cs",
+              "RelativeToolTip": "store_project_api\\Models\\OrderItem.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T06:15:39.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "store_project_api\\Models\\Order.cs",
+              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Models\\Order.cs",
+              "RelativeToolTip": "store_project_api\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T05:55:23.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderServices.cs",
+              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Services\\OrderServices.cs",
+              "RelativeDocumentMoniker": "store_project_api\\Implement\\Services\\OrderServices.cs",
+              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Services\\OrderServices.cs",
+              "RelativeToolTip": "store_project_api\\Implement\\Services\\OrderServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:39:38.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductServices.cs",
+              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Services\\ProductServices.cs",
+              "RelativeDocumentMoniker": "store_project_api\\Implement\\Services\\ProductServices.cs",
+              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Services\\ProductServices.cs",
+              "RelativeToolTip": "store_project_api\\Implement\\Services\\ProductServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T06:17:23.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderItemsDTO.cs",
+              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\DTOS\\OrderItemsDTO.cs",
+              "RelativeDocumentMoniker": "store_project_api\\DTOS\\OrderItemsDTO.cs",
+              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\DTOS\\OrderItemsDTO.cs",
+              "RelativeToolTip": "store_project_api\\DTOS\\OrderItemsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T15:26:57.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IOrder.cs",
+              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Interfaces\\IOrder.cs",
+              "RelativeDocumentMoniker": "store_project_api\\Implement\\Interfaces\\IOrder.cs",
+              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Interfaces\\IOrder.cs",
+              "RelativeToolTip": "store_project_api\\Implement\\Interfaces\\IOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T06:14:33.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderHub.cs",
+              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Services\\OrderHub.cs",
+              "RelativeDocumentMoniker": "store_project_api\\Implement\\Services\\OrderHub.cs",
+              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Implement\\Services\\OrderHub.cs",
+              "RelativeToolTip": "store_project_api\\Implement\\Services\\OrderHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T17:14:10.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\DTOS\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "store_project_api\\DTOS\\OrderDTO.cs",
+              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\DTOS\\OrderDTO.cs",
+              "RelativeToolTip": "store_project_api\\DTOS\\OrderDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:57:40.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Program.cs",
+              "RelativeDocumentMoniker": "store_project_api\\Program.cs",
+              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Program.cs",
+              "RelativeToolTip": "store_project_api\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T06:28:35.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StoreDbContext.cs",
+              "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Models\\StoreDbContext.cs",
+              "RelativeDocumentMoniker": "store_project_api\\Models\\StoreDbContext.cs",
+              "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\Models\\StoreDbContext.cs",
+              "RelativeToolTip": "store_project_api\\Models\\StoreDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAACuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T05:54:45.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\appsettings.json",
               "RelativeDocumentMoniker": "store_project_api\\appsettings.json",
               "ToolTip": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\appsettings.json",
               "RelativeToolTip": "store_project_api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-16T06:29:44.253Z"
+              "WhenOpened": "2025-12-16T06:29:44.253Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\Learn_WEB\\Test_Fullstack\\store_project_api\\store_project_api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "store_project_api\\appsettings.Development.json",
@@ -297,7 +281,8 @@
               "RelativeToolTip": "store_project_api\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-16T06:29:46.912Z"
+              "WhenOpened": "2025-12-16T06:29:46.912Z",
+              "EditorCaption": ""
             }
           ]
         }

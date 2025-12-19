@@ -4,34 +4,34 @@ use Store_Manage
 go
 
 CREATE TABLE Products (
-    ProductId VARCHAR(20) PRIMARY KEY,  -- Khoá chính, tự động tăng
-    Name NVARCHAR(100) NOT NULL,              -- Tên sản phẩm
-    Price DECIMAL(18, 2) NOT NULL,            -- Giá sản phẩm
-    Description NVARCHAR(255),                -- Mô tả sản phẩm (tuỳ chọn)
-    CreatedAt DATETIME DEFAULT GETDATE()      -- Thời gian tạo sản phẩm
+    ProductId VARCHAR(20) PRIMARY KEY,  
+    Name NVARCHAR(100) NOT NULL,              
+    Price DECIMAL(18, 2) NOT NULL,           
+    Description NVARCHAR(255),               
+    CreatedAt DATETIME DEFAULT GETDATE()     
 );
 
 CREATE TABLE Orders (
-    OrderId VARCHAR(20) PRIMARY KEY,   -- Khoá chính, tự động tăng
-    TotalAmount DECIMAL(18, 2) NOT NULL,      -- Tổng tiền của đơn hàng
-    OrderTime DATETIME DEFAULT GETDATE(),    -- Thời gian thanh toán
-    Status NVARCHAR(50) DEFAULT 'Pending',    -- Trạng thái đơn hàng (Pending, Completed, Canceled)
-    CreatedAt DATETIME DEFAULT GETDATE()      -- Thời gian tạo đơn hàng
+    OrderId VARCHAR(20) PRIMARY KEY,   
+    TotalAmount DECIMAL(18, 2) NOT NULL,      
+    OrderTime DATETIME DEFAULT GETDATE(),    
+    Status NVARCHAR(50) DEFAULT 'Pending',  --- (Pending, Completed)
+    CreatedAt DATETIME DEFAULT GETDATE()     
 );
 
 CREATE TABLE OrderItems (
-    OrderItemId VARCHAR(20) PRIMARY KEY,    -- Khoá chính, tự động tăng
-    OrderId VARCHAR(20),                                   -- Khoá ngoại đến bảng Orders
-    ProductId VARCHAR(20),                                 -- Khoá ngoại đến bảng Products
-    Quantity INT NOT NULL,                         -- Số lượng sản phẩm
-    UnitPrice DECIMAL(18, 2) NOT NULL,             -- Giá của từng sản phẩm tại thời điểm mua
-    TotalAmount AS (Quantity * UnitPrice) PERSISTED, -- Tính toán tổng tiền cho sản phẩm (số lượng * giá)
-    CreatedAt DATETIME DEFAULT GETDATE(),          -- Thời gian tạo chi tiết đơn hàng
-    FOREIGN KEY (OrderId) REFERENCES Orders(OrderId), -- Liên kết với bảng Orders
-    FOREIGN KEY (ProductId) REFERENCES Products(ProductId) -- Liên kết với bảng Products
+    OrderItemId VARCHAR(20) PRIMARY KEY,    
+    OrderId VARCHAR(20),                                   
+    ProductId VARCHAR(20),                                
+    Quantity INT NOT NULL,                        
+    UnitPrice DECIMAL(18, 2) NOT NULL,            
+    TotalAmount AS (Quantity * UnitPrice) PERSISTED, 
+    CreatedAt DATETIME DEFAULT GETDATE(),         
+    FOREIGN KEY (OrderId) REFERENCES Orders(OrderId), 
+    FOREIGN KEY (ProductId) REFERENCES Products(ProductId) 
 );
 
--- Thêm sản phẩm mẫu vào bảng Products
+
 INSERT INTO Products (ProductId,Name, Price, Description)
 VALUES
     ('sp001',N'Táo', 1.2, N'Táo đỏ sạch'),

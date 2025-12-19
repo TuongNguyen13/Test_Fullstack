@@ -1,4 +1,4 @@
-/* Kiểu dáng chung cho footer */
+
 .footer {
   background-color: #333;
   color: white;
@@ -39,7 +39,7 @@ footer p {
   text-decoration: underline;
 }
 
-/* Thêm kiểu cho phần responsive */
+
 @media (max-width: 768px) {
   .footer-links {
     flex-direction: column;

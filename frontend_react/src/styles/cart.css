@@ -15,7 +15,7 @@
   flex-shrink: 0;
 }
 
-/* Cart items container - scrollable */
+
 .cart-items-container {
   flex: 1;
   overflow-y: auto;
@@ -61,7 +61,7 @@
   color: #666;
 }
 
-/* Total - Fixed at bottom */
+
 .total {
   font-size: 1.2rem;
   font-weight: bold;
